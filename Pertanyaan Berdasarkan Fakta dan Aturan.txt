@@ -1,0 +1,17 @@
+NIM	: 2106035
+Nama	: Murni Lestari Rahmi
+
+Pertanyaan:			Query:
+1. Siapa istri John?			is_istri(W,john).
+2. Siapa saja anak tuan David?		is_anak_tuan(Z,david).
+3. Buktikan bahwa Susan adalah anak 	is_anak_perempuan_nyonya(susan,karen).
+    perempuan nyonya Karen.
+4. Apakah Liza adalah anak tuan Jack?	is_anak_tuan(liza,jack).
+5. Siapa saja keponakan Ray?		is_paman(ray,Z).
+6. Buktikan bahwa Mary dan Ray	not(halal(menikah(mary,ray))).
+    tidak halal menikah.
+7. Apakah Peter adalah ayah Mary?	is_ayah(peter,mary).
+8. Siapa saja kedua nenek Peter?	is_nenek(W,peter).
+9. Buktikan bahwa Jack dan David	is_besan(jack,david).
+    adalah besan.
+10. Siapa saudara ipar Susan?		is_saudara_ipar(V,susan).
